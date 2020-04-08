@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/babeone/react-native-static-server.git", :tag => "v#{s.version}" }
-  s.source_files = "*.{h,m}","GCDWebServer/**/*.{h,m}"
+  s.source_files = "*.{h,m}","ios/**/*"
 
   s.dependency 'React'
 end
