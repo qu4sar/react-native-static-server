@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.license      = package['license']
 
   s.authors      = package['author']
+  s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/babeone/react-native-static-server.git", :tag => "v#{s.version}" }
